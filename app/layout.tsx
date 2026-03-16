@@ -1,3 +1,4 @@
+import './globals.css';
 export const metadata = {
   title: 'AURELLE',
   description: 'Dark luxury womenswear',
