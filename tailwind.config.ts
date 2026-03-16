@@ -1,13 +1,21 @@
-import type { Config } from 'tailwindcss';
-
-const config: Config = {
-  content: [
-    './app/**/*.{js,ts,jsx,tsx}'
-  ],
-  theme: {
-    extend: {},
+{
+  "name": "aurelle-store",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  plugins: [],
-};
-
-export default config;
+  "dependencies": {
+    "framer-motion": "^12.6.3",
+    "lucide-react": "^0.511.0",
+    "next": "^15.3.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.10",
+    "tailwindcss": "^4.1.10",
+    "typescript": "^5.8.3"
+  }
+}
